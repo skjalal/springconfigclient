@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springconfigclient
+  cloud:
+    config:
+      uri:
+        - http://127.0.0.1:8080

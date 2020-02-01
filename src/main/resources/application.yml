@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: springconfigclient
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
