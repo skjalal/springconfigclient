@@ -2,18 +2,6 @@ spring:
   application:
     name: springconfigclient
   cloud:
-    bus:
-      enabled: true
-      trace:
-        enabled: true
     config:
       uri:
-        - http://127.0.0.1:8080
-management:
-  endpoint:
-    bus-env:
-      enabled: true
-    bus-refresh:
-      enabled: true
-  security:
-    enabled: false
+        - http://127.0.0.1:8888
